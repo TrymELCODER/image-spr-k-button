@@ -1,0 +1,48 @@
+   /* Style for the dropdown container */
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Style for the button */
+  .dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Style for the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style for the dropdown items */
+  .dropdown-content a {
+    display: block;
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  /* Style for the images inside the dropdown */
+  .dropdown-content img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  /* Enlarge and add a slight light-up effect on hover */
+  .dropdown-content a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+
+  /* Show the dropdown content when the dropdown button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
